@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="container py-5 bg-light min-vh-100 text-center">
-      <h1 className="mb-4 display-5 text-danger">Love Letters for Every Mood</h1>
+      <h1 className="mb-4 display-5 text-danger">FOR YOU</h1>
       <div className="row justify-content-center">
         {letters.map((letter, index) => (
           <div key={index} className="col-12 col-sm-6 col-md-4 mb-3">
